@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*-coding:utf-8-*-
+
 import urllib
 import re
 
@@ -19,6 +22,7 @@ def ed2k_crawler(url):
     print >> f, "\n ========================================== \n"
     f.close()
     print url + " Done! ==> Print to output.txt"
+
 
 if __name__ == "__main__":
 
